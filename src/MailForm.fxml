@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="277.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MailFormController">
+   <children>
+      <Label layoutX="26.0" layoutY="30.0" prefHeight="27.0" prefWidth="112.0" text="Sender Email :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="70.0" prefHeight="27.0" prefWidth="112.0" text="Recipient's Email :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="107.0" prefHeight="27.0" prefWidth="112.0" text="Msg">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSend" layoutX="496.0" layoutY="83.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="56.0" text="Send" />
+      <TextField fx:id="txtSender" layoutX="159.0" layoutY="31.0" prefHeight="26.0" prefWidth="234.0" />
+      <TextField fx:id="txtRecipient" layoutX="159.0" layoutY="70.0" prefHeight="26.0" prefWidth="234.0" />
+      <TextArea fx:id="txtMsg" layoutX="26.0" layoutY="139.0" prefHeight="113.0" prefWidth="531.0" />
+   </children>
+</AnchorPane>
